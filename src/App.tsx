@@ -1,5 +1,5 @@
 import React from 'react';
-import * as C from './App.styles'
+import * as C from './App.styles' 
 
 function App() {
   return (
@@ -15,8 +15,6 @@ function App() {
 
         {/**tabela de itens */}
         
-        {/**18 min de aula */}
-
       </C.Body>
     </C.Container>
   );
