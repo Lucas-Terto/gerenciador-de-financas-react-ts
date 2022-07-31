@@ -14,9 +14,7 @@ function App() {
         {/**área de inserção */}
 
         {/**tabela de itens */}
-        
-        {/**18 min de aula */}
-
+      
       </C.Body>
     </C.Container>
   );
