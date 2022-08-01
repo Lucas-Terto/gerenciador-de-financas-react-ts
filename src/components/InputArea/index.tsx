@@ -85,5 +85,4 @@ const InputArea = ({onAdd}:Props) => {
       </C.Container>
     )
 }
-
 export default InputArea
