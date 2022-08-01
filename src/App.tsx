@@ -55,19 +55,14 @@ function App() {
         <C.HeaderText>Gerenciador de Finanças</C.HeaderText>
       </C.Header>
       <C.Body>
-        
         <InfoArea 
           currentMonth={currentMonth}
           onMonthChange={handleMonthChange}
           income={income} 
           expense={expense} 
         />
-
-        {/**área de inserção / 1:54:23 do curso*/}
         <InputArea onAdd={handleAddItem}/>
-
         <TableArea list={filteredList}/>
-        
       </C.Body>
     </C.Container>
   );
