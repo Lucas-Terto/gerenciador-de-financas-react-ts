@@ -63,7 +63,7 @@ function App() {
           expense={expense} 
         />
 
-        {/**área de inserção / 1:54:23 do curso*/}
+        
         <InputArea onAdd={handleAddItem}/>
 
         <TableArea list={filteredList}/>
